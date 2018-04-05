@@ -6,6 +6,8 @@ permalink:  the_most_sought_after_skill
 ---
 
 
+## testing
+
 Gaining experience and learning a new skill should always be encouraged. In today’s highly digitized market, having coding experience is incredibly sought after. It opens the gateway to personal and professional growth as well as meeting demand in an environment where supply is drastically low. The misconception is that coding is purely for people who wish to become engineers, but in reality, it is a skill that is beneficial to everyone and can be taught across generations and not just to millennials. Children in schools are also beginning to learn to code as an initiative that will mold the minds of future leaders who are not far off from joining the workforce.
 
 **Enhance Your Ability to Problem-Solve**
