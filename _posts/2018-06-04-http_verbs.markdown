@@ -1,14 +1,14 @@
 ---
 layout: post
 title:      "HTTP Verbs"
-date:       2018-06-04 20:36:44 +0000
+date:       2018-06-04 16:36:45 -0400
 permalink:  http_verbs
 ---
 
-HTTP verbs lend themselves to creating RESTful APIs whilst ensuring that all possible CRUD (Create, Retrieve, Update, Delete) operations are present.
+HTTP verbs lend themselves to creating RESTful APIs whilst ensuring that all possible CRUD (Create, Read, Update, Delete) operations are present.
 
 **HTTP GET**<br>
-GET requests to *retrieve* a resource without modifying it. GET requests do not therefore, change the state of the resource. It is said to be a safe method.
+GET requests to *read* a resource without modifying it. GET requests do not therefore, change the state of the resource. It is said to be a safe method.
 
 For any HTTP GET API, if the resource is found on the server, it will return the HTTP response code of 200 (accepted). If the resource is not found on the the server, it will return a 404 response whereby the resource could not be found. The HTTP response code of 400 will be returned if the GET request is not correctly formed; this is a bad request.
 
