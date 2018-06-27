@@ -1,6 +1,6 @@
 ---
 layout: post
-title:      "HTTP Verbs"
+title:      "HTTP Verbs: Giving Requests a Function"
 date:       2018-06-04 16:36:45 -0400
 permalink:  http_verbs
 ---
