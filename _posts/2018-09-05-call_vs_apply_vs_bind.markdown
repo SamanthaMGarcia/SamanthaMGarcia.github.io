@@ -54,5 +54,5 @@ var person1 = {firstName: 'Samantha', lastname: 'Garcia'};
 		 var sayHelloSamantha = say.bind(person1);
 		 var sayHelloJohn = say.bind(person2);
 		 
-		 sayHelloSamantha();  // Hello Samantha Garcia
-		 sayHelloJohn();  // Hello John Smith`
+		 ```sayHelloSamantha();  // Hello Samantha Garcia
+		 sayHelloJohn();  // Hello John Smith```
