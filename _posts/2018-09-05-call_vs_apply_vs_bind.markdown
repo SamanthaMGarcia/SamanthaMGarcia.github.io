@@ -12,7 +12,7 @@ Moving into the JavaScript portion of the curriculum, I came to realize how incr
 
 Call, apply and bind are all JavaScript methods that allow the programmer to change the value of the `this` keyword as it is applicable to a given function. 
 
-## `Function.prototype.call()` 
+## Function.prototype.call()
 Call invokes the function and allows the programmer to pass in arguments one at a time. Arguments passed in are separated by commas (C for Call).
 
 `var person1 = {firstName: 'Samantha', lastname: 'Garcia'};
@@ -23,7 +23,7 @@ Call invokes the function and allows the programmer to pass in arguments one at 
 		 say.call(person1, 'Hello'); // Hello Samantha Garcia
 		 say.call(person2, 'Hello'); // Hello John Smith`
 
-## `Function.prototype.apply()`
+## Function.prototype.apply()
 Apply invokes the function and allows the programmer to pass in arguments as an array. Apply is applicable to arrays (A for Array).
 
 `var person1 = {firstName: 'Samantha', lastname: 'Garcia'};
@@ -34,7 +34,7 @@ Apply invokes the function and allows the programmer to pass in arguments as an 
 		 say.apply(person1, ['Hello']);  // Hello Samantha Garcia
 		 say.apply(person2, ['Hello']);  // Hello John Smith`
 
-## `Function.prototype.bind()`
+## Function.prototype.bind()
 Bind returns a new function, allowing the programmer to pass in a `this` array and any number of arguments. Bind can be used to curry functions, also known as partial function application, which allows the use of a function (that accepts one or more arguments) to return a new function with some of the arguments already set. The function that is returned has access to the stored arguments and variables of the outer function. With bind, one can explicitly set the `this` value for invoking methods on objects. Methods can be borrowed and copied, and assigned to the variable to be executed as functions.
 
 `var person1 = {firstName: 'Samantha', lastname: 'Garcia'};
