@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "call() vs apply() vs bind()"
-date:       2018-09-05 17:57:23 +0000
+date:       2018-09-05 13:57:24 -0400
 permalink:  call_vs_apply_vs_bind
 ---
 
