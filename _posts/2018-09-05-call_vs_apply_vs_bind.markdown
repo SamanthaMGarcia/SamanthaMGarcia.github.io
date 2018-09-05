@@ -15,44 +15,53 @@ Call, apply and bind are all JavaScript methods that allow the programmer to cha
 ## Function.prototype.call()
 Call invokes the function and allows the programmer to pass in arguments one at a time. Arguments passed in are separated by commas (C for Call).
 
-`
+```
 var person1 = {firstName: 'Samantha', lastname: 'Garcia'};
-  var person2 ={firstName: 'John', lastname: 'Smith'};
-     function say(greeting) {
+var person2 ={firstName: 'John', lastname: 'Smith'};
+     
+		 function say(greeting) {
 		 
-		console.log(greeting + ' ' + this.firstName + ' ' + this.lastName);
+		         console.log(greeting + ' ' + this.firstName + ' ' + this.lastName);
 		}
 		
 		 say.call(person1, 'Hello'); // Hello Samantha Garcia
-		 say.call(person2, 'Hello'); // Hello John Smith`
+		 say.call(person2, 'Hello'); // Hello John Smith
+		 ```
 
 ## Function.prototype.apply()
 Apply invokes the function and allows the programmer to pass in arguments as an array. Apply is applicable to arrays (A for Array).
 
-`
+```
 var person1 = {firstName: 'Samantha', lastname: 'Garcia'};
-  var person2 ={firstName: 'John', lastname: 'Smith'};
-     function say(greeting) {
+
+
+var person2 ={firstName: 'John', lastname: 'Smith'};
+     
+		 function say(greeting) {
 		 
-		console.log(greeting + ' ' + this.firstName + ' ' + this.lastName);
+		            console.log(greeting + ' ' + this.firstName + ' ' + this.lastName);
 		}
 		
 		 say.apply(person1, ['Hello']);  // Hello Samantha Garcia
-		 say.apply(person2, ['Hello']);  // Hello John Smith`
+		 say.apply(person2, ['Hello']);  // Hello John Smith
+		 ```
 
 ## Function.prototype.bind()
 Bind returns a new function, allowing the programmer to pass in a `this` array and any number of arguments. Bind can be used to curry functions, also known as partial function application, which allows the use of a function (that accepts one or more arguments) to return a new function with some of the arguments already set. The function that is returned has access to the stored arguments and variables of the outer function. With bind, one can explicitly set the `this` value for invoking methods on objects. Methods can be borrowed and copied, and assigned to the variable to be executed as functions.
 
 ```
 var person1 = {firstName: 'Samantha', lastname: 'Garcia'};
-  var person2 ={firstName: 'John', lastname: 'Smith'};
+
+var person2 ={firstName: 'John', lastname: 'Smith'};
+
      function say() {
 		 
-		console.log('Hello' + ' ' + this.firstName + ' ' + this.lastName);
+		            console.log('Hello' + ' ' + this.firstName + ' ' + this.lastName);
 		}
 		
 		 var sayHelloSamantha = say.bind(person1);
 		 var sayHelloJohn = say.bind(person2);
 		 
 		 sayHelloSamantha();  // Hello Samantha Garcia
-		 sayHelloJohn();  // Hello John Smith```
+		 sayHelloJohn();  // Hello John Smith
+		 ```
