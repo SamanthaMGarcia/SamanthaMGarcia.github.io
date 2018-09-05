@@ -18,8 +18,10 @@ Call invokes the function and allows the programmer to pass in arguments one at 
 `var person1 = {firstName: 'Samantha', lastname: 'Garcia'};
   var person2 ={firstName: 'John', lastname: 'Smith'};
      function say(greeting) {
+		 
 		console.log(greeting + ' ' + this.firstName + ' ' + this.lastName);
 		}
+		
 		 say.call(person1, 'Hello'); // Hello Samantha Garcia
 		 say.call(person2, 'Hello'); // Hello John Smith`
 
@@ -29,8 +31,10 @@ Apply invokes the function and allows the programmer to pass in arguments as an 
 `var person1 = {firstName: 'Samantha', lastname: 'Garcia'};
   var person2 ={firstName: 'John', lastname: 'Smith'};
      function say(greeting) {
+		 
 		console.log(greeting + ' ' + this.firstName + ' ' + this.lastName);
 		}
+		
 		 say.apply(person1, ['Hello']);  // Hello Samantha Garcia
 		 say.apply(person2, ['Hello']);  // Hello John Smith`
 
@@ -40,8 +44,10 @@ Bind returns a new function, allowing the programmer to pass in a `this` array a
 `var person1 = {firstName: 'Samantha', lastname: 'Garcia'};
   var person2 ={firstName: 'John', lastname: 'Smith'};
      function say() {
+		 
 		console.log('Hello' + ' ' + this.firstName + ' ' + this.lastName);
 		}
+		
 		 var sayHelloSamantha = say.bind(person1);
 		 var sayHelloJohn = say.bind(person2);
 		 
