@@ -22,11 +22,12 @@ var person2 ={firstName: 'John', lastname: 'Smith'};
 		 function say(greeting) {
 		 
 		         console.log(greeting + ' ' + this.firstName + ' ' + this.lastName);
-		}
+		 }
 		
 		 say.call(person1, 'Hello'); // Hello Samantha Garcia
 		 say.call(person2, 'Hello'); // Hello John Smith
-		 ```
+		 
+ ```
 
 ## Function.prototype.apply()
 Apply invokes the function and allows the programmer to pass in arguments as an array. Apply is applicable to arrays (A for Array).
@@ -44,7 +45,7 @@ var person2 ={firstName: 'John', lastname: 'Smith'};
 		
 		 say.apply(person1, ['Hello']);  // Hello Samantha Garcia
 		 say.apply(person2, ['Hello']);  // Hello John Smith
-		 ```
+```
 
 ## Function.prototype.bind()
 Bind returns a new function, allowing the programmer to pass in a `this` array and any number of arguments. Bind can be used to curry functions, also known as partial function application, which allows the use of a function (that accepts one or more arguments) to return a new function with some of the arguments already set. The function that is returned has access to the stored arguments and variables of the outer function. With bind, one can explicitly set the `this` value for invoking methods on objects. Methods can be borrowed and copied, and assigned to the variable to be executed as functions.
@@ -64,4 +65,4 @@ var person2 ={firstName: 'John', lastname: 'Smith'};
 		 
 		 sayHelloSamantha();  // Hello Samantha Garcia
 		 sayHelloJohn();  // Hello John Smith
-		 ```
+```
