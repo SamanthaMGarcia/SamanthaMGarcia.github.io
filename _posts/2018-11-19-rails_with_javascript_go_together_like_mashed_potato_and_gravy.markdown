@@ -1,0 +1,19 @@
+---
+layout: post
+title:      "Rails with JavaScript: Go Together Like Mashed Potato and Gravy"
+date:       2018-11-19 16:18:41 +0000
+permalink:  rails_with_javascript_go_together_like_mashed_potato_and_gravy
+---
+
+Now in the month of November, it has truly dawned on me how much my progress has slowed. With Thanksgiving on our doorstep, I was adamant that I wanted my penultimate portfolio project to be done before I could fall into a deep four-day food coma. I am glad to say that I managed to make that happen however it wasn't without its struggles. 
+
+## Taking a Day Off from Days Off
+As I progressed through the JavaScript and the Rails and JavaScript curriculum, it became aware to me that my current Rails project would not easily be adapted to fit the requirements of the Rails/JS assignment. With the Beta Cohort (rake-it-til-u-make-it) over, I felt a little bit like my training wheels were off and I was left wombling on two wheels, struggling to push the peddles. A call with our [former] fearless leader Jenn helped me mock up a quick and easy Ruby Rails app that could then be the foundation for some JS functionality to be added to it. We settled on a simple Recipes App with a has_many relationship in the Ingredients model. It was actually quite nice to build a Rails app from scratch again. I really do love Ruby and it was exciting to somewhat effortlessly build a project that a couple of months ago, caused me a lot of anxiety and took 4 times as long. Granted the app doesn't have the same complexity as the Rails portfolio project, the functionality required of the Rails component of this project was fulfilled, giving me 
+the chance to tackle the hard part, the JavaScript.
+
+## Learning, Re-learning and Learning Some More
+It always takes some time to get stuck into a new portfolio project. This is for many reason but namely two. Firstly, it is so hard to know where to begin. I have never gotten to the portfolio project lesson of the curriculum and started a new repo immediately. Like clockwork, I get to this lesson and go back through the curriculum re-learning everything required in the new app. I printed the checklist of requirements and went back over ES6, JSON, Active Model Serialization, JavaScript Model Objects and AJAX. I watched Learn Instruct Videos over and over again, coding along with them as well as pausing to pre-empt errors and results that would be triggered. The second big hurdle to starting a portfolio project is setting up the local environment. Without fail I find myself Googling how to get started. Given that this project started with Rails, it wasn't too hard to get into the swing of things however I still did need to have a 1:1 to ensure I was working in the right directory and that all of my work was successfully being pushed up to Github. 
+
+## From All the Confusion, I Gained Clarity
+Building my second Ruby Rails app definitely confirmed that Ruby is my preferred language and the one I am most comfortable coding in, not to mention it is easier than JavaScript. The more I progress in the course, the more I realize that I do not in fact wish to be a web developer but rather something that utilizes a combination of my new found skills, with my ever-evolving love for marketing and commerce. A few months ago I decided I wanted to pursue a career as a product manager and now a few weeks into Career Prep, I am growing more and more confident in this decision. As a result I have re-centered and am really concentrating on finishing this course before December 31st. Completing this project wasn't as difficult as first thought however I was forced to learn and understand so much just to complete the requirements. I never really grasped how AJAX worked until I watched GET requests being fired on my own app. With only one more portfolio project to go, I am starting to get very excited about my future after this course.
+
